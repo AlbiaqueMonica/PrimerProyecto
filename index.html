@@ -15,7 +15,7 @@
 <body>
 
     <!------------------Navegacion-------------------->
-    <nav class="navbar navbar-expand-sm sticky-top navegacion justify-content-end justify-content-md-start">
+    <nav class="navbar navbar-expand-sm fixed-top navegacion justify-content-end justify-content-md-start">
 
         <button class="navbar-toggler text-light " type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,7 +73,7 @@
     </nav>
 
 
-    <header>
+    <header id="inicio">
 
         <div class="row  fondo  justify-content-center align-content-center">
             <div class="col text-white nombre">
@@ -95,7 +95,7 @@
 
     <!--------Acerca de-->
 
-    <section id="inicio" class="container mt-5 box">
+    <section class="container mt-5 box">
 
         <div class="row justify-content-center align-items-center ">
 
@@ -121,14 +121,17 @@
 
 
     <!-- SKILLS -->
-    <section id="skills" class="container mt-4">
+    <section id="skills" class="container">
         <h2 class="bg text-center mt-5 ">Skills Académicos</h2>
+    
+
+    <section class="container">
         <div class="row justify-content-between mt-2 p-5">
 
             <div class="col-lg-2 col-md-2 col-6 mb-2">
                 <div class="card text-center border-primary h-100">
                     <img class="img-fluid" src="../img/lengC.jpg">
-                    <div class="card-body bg">
+                    <div class="card-body bg-recto">
                         <h5 class="card-title">Lenguaje C</h5>
                     </div>
                 </div>
@@ -138,7 +141,7 @@
             <div class="col-lg-2 col-md-2 col-6 mb-2">
                 <div class="card text-center border-primary h-100">
                     <img class="img-fluid" src="../img/Java.jpg">
-                    <div class="card-body bg">
+                    <div class="card-body bg-recto">
                         <h5 class="card-title">Oracle Java</h5>
                     </div>
                 </div>
@@ -147,7 +150,7 @@
             <div class="col-lg-2 col-md-2 col-6 mb-2">
                 <div class="card text-center border-primary h-100">
                     <img class="img-fluid " src="../img/VS2012.jpg">
-                    <div class="card-body bg">
+                    <div class="card-body bg-recto">
                         <h5 class="card-title">Visual Studio</h5>
                     </div>
                 </div>
@@ -158,7 +161,7 @@
             <div class="col-lg-2 col-md-2 col-6 mb-2">
                 <div class="card text-center border-primary h-100">
                     <img class="img-fluid " src="../img/sql.jpg">
-                    <div class="card-body bg">
+                    <div class="card-body bg-recto">
                         <h5 class="card-title">SQL</h5>
 
                     </div>
@@ -178,7 +181,7 @@
             <div class="col-lg-2 col-md-2 col-12 mb-2">
                 <div class="card text-center border-primary h-100">
                     <i class="fab fa-html5 icon neon  pb-2" style="color: orangered"></i>
-                    <div class="card-body bg">
+                    <div class="card-body bg-recto">
                         <h5 class="card-title">HTML5</h5>
                     </div>
                 </div>
@@ -186,7 +189,7 @@
             <div class="col-lg-2 col-md-2 col-12 mb-2">
                 <div class="card text-center border-primary h-100">
                     <i class="fab fa-css3-alt icon  neon  pb-2" style="color: rgb(211, 61, 136)"></i>
-                    <div class="card-body bg">
+                    <div class="card-body bg-recto">
                         <h5 class="card-title">CSS3</h5>
                     </div>
                 </div>
@@ -194,7 +197,7 @@
             <div class="col-lg-2 col-md-2 col-12 mb-2">
                 <div class="card text-center border-primary h-100">
                     <i class="fab fa-bootstrap icon neon pb-2" style="color:#563D7C"></i>
-                    <div class="card-body bg">
+                    <div class="card-body bg-recto">
                         <h5 class="card-title">Bootstrap</h5>
                     </div>
                 </div>
@@ -202,7 +205,7 @@
             <div class="col-lg-2 col-md-2 col-12 mb-2 ">
                 <div class="card text-center border-primary h-100">
                     <i class="fab fa-js icon neon pb-2" style="color: yellow"></i>
-                    <div class="card-body bg">
+                    <div class="card-body bg-recto">
                         <h5 class="card-title">JavaScript</h5>
                     </div>
                 </div>
@@ -210,7 +213,7 @@
             <div class="col-lg-2 col-md-2 col-12 mb-2">
                 <div class="card text-center border-primary h-100">
                     <i class="fab fa-python icon neon pb-2""></i>
-                <div class=" card-body bg">
+                <div class=" card-body bg-recto">
                         <h5 class="card-title">Python</h5>
                 </div>
             </div>
@@ -218,7 +221,7 @@
         <div class="col-lg-2 col-md-2 col-12 mb-2">
             <div class="card text-center border-primary h-100">
                 <i class="fab fa-node icon neon pb-2"></i>
-                <div class="card-body bg">
+                <div class="card-body bg-recto">
                     <h5 class="card-title">NodeJS</h5>
                 </div>
             </div>
@@ -228,16 +231,23 @@
         </div>
 
     </section>
+</section>
 
     <!-----Proyectos-->
-    <section id="proyectos" class="container text-center">
+    <section id="proyectos"> </section>
+
+    <section class="container text-center">
         <h2 class="bg text-center mt-2 ">Proyectos en curso, para sumar práctica y experiencia</h2>
+    </section>
+
+    <section class="container text-center">
+        
         <div class="row mt-2 p-5 ">
 
             <div class="col-lg-3 col-md-3 col-12 mb-2">
                 <div class="card text-center border-primary h-100">
                     <img class="img-fluid " src="../img/abeja.jpg">
-                    <div class="card-body bg">
+                    <div class="card-body bg-recto">
                         <h5 class="card-title">Web Comidas Caseras</h5>
                     </div>
                 </div>
@@ -246,7 +256,7 @@
             <div class="col-lg-3 col-md-3 col-12 mb-2 ">
                 <div class="card text-center border-primary h-100">
                     <img class="img-fluid " src="../img/skeleton.jpg">
-                    <div class="card-body bg">
+                    <div class="card-body bg-recto">
                         <h5 class="card-title">Web Centro de Kineseología</h5>
                     </div>
                 </div>
@@ -255,7 +265,7 @@
             <div class="col-lg-3 col-md-3 col-12 mb-2">
                 <div class="card text-center border-primary h-100">
                     <img class="img-fluid " src="../img/hand.jpg">
-                    <div class="card-body bg">
+                    <div class="card-body bg-recto">
                         <h5 class="card-title">Web Acompañante Terapéutico</h5>
                     </div>
                 </div>
@@ -264,7 +274,7 @@
             <div class="col-lg-3 col-md-3 col-12 mb-2">
                 <div class="card text-center border-primary h-100">
                     <img class="img-fluid " src="../img/patos.jpg">
-                    <div class="card-body bg">
+                    <div class="card-body bg-recto">
                         <h5 class="card-title">Un camino que recién empieza...</h5>
                     </div>
                 </div>
@@ -275,8 +285,9 @@
     </section>
 
     <!----Frase-->
-    <section class="container rounded text-center">
-        <h2 class="frase bg text-center mt-4 mb-4">Al séptimo día Dios descansó y pensó: ¿Y si lo automatizo?
+    <section class="container rounded text-center mb-5">
+        <h2 class="frase bg text-center mt-4 mb-4">Al séptimo día Dios descansó y pensó:
+            <p> ¿Y si lo automatizo?</p>
         </h2>
 
     </section>
@@ -284,10 +295,14 @@
 
 
     <!-- FORMULARIO DE CONTACTO -->
-    <section class="container contacto box" id="contacto">
-        <h3 class="text-white p-3 text-center">Contacto</h3>
-        <div class="row justify-content-center">
-            <div class="col-xl-5 col-lg-5 col-xs-12  text-white pb-3">
+    <section id="contacto" class="container rounded text-center pb-10">
+        <h3 class="bg text-center mt-4 mb-4">Contacto</h3>
+    </section>
+
+    <section class="container contacto box  pt-10 ">
+
+        <div class="row justify-content-center ">
+            <div class="col-xl-5 col-lg-5 col-xs-12  text-white mt-10 b-3">
                 <form action="" method="POST">
                     <div class="form-group">
                         <label for="name">Nombre Completo <span class="text-danger font-weight-bolder">*</span></label>
