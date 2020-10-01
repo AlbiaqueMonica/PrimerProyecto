@@ -14,8 +14,8 @@
 }
 
 body{
-    background-image: url("../img/circuito.png");
-    background-size: cover;
+    /* background-image: url("../img/circuito.png");
+    background-size: cover; */
     width: 100%;
 
 }
@@ -52,7 +52,7 @@ body{
     background-image: url("../img/morado.jpg");
     background-size: cover;
     opacity: 0.9;
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     margin: 0;
 
@@ -111,10 +111,10 @@ body{
 		0 0 10px rgba(0,178,255,1),
 		0 0 20px rgba(0,178,255,1),
 		0 0 40px rgba(38,104,127,1),
-		0 0 80px rgba(38,104,127,1),
-		0 0 90px rgba(38,104,127,1),    
-		0 0 100px rgba(38,104,127,1),
-		0 0 140px rgba(38,104,127,1);
+		0 0 80px rgba(38,104,127,1);
+		/* 0 0 90px rgba(38,104,127,1);    */
+		/* 0 0 100px rgba(38,104,127,1); */
+		/* 0 0 140px rgba(38,104,127,1); */
 		/* 0 0 180px rgba(38,104,127,1); */
 }
 
