@@ -205,7 +205,7 @@ footer{
 
  @media screen and (max-width: 992px) {
     .icon {
-        font-size: 80px;
+        font-size: 85px;
     }
     h2{
         font-size: 30px;
@@ -221,7 +221,7 @@ footer{
 
   @media screen and (max-width: 600px) {
     .icon {
-        font-size: 60px;
+        font-size: 70px;
     }
     h2{
         font-size: 25px;
@@ -236,7 +236,7 @@ footer{
 
   @media screen and (max-width:480px){
 	.icon {
-        font-size: 40px;
+        font-size: 45px;
     }
     h2{
         font-size: 20px;
